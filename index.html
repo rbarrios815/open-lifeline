@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Lifeline</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Open Lifeline</h1>
+    <p class="tagline">Offline, life-saving guidance for anyone, anywhere.</p>
+    <input id="search" type="search" placeholder="Search topics (e.g., bleeding, CPR, anxiety)" aria-label="Search topics">
+  </header>
+
+  <main>
+    <nav id="topics" aria-label="Topic list"></nav>
+    <article id="content" aria-live="polite" aria-atomic="true"></article>
+  </main>
+
+  <footer>
+    <small>
+      Educational information only. Not a substitute for professional care.
+      In an emergency, use your region’s emergency number.
+    </small>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+    }
+  </script>
+</body>
+</html>

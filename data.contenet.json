@@ -1,0 +1,57 @@
+{
+  "topics": [
+    {
+      "id": "bleeding-control",
+      "title": "Severe Bleeding: Control It Fast",
+      "category": "First Aid",
+      "summary": "Direct pressure, pack if needed, then tourniquet if life-threatening.",
+      "keywords": ["bleed", "hemorrhage", "tourniquet", "pressure"],
+      "steps": [
+        "Use clean cloth or any available fabric. Apply firm, direct pressure on the wound. Do not remove soaked cloth—add more on top.",
+        "If bleeding continues and the wound is deep, pack the wound firmly with cloth/gauze while keeping pressure.",
+        "If an arm/leg is still bleeding heavily, apply a tourniquet 2–3 inches above the wound (not over a joint). Tighten until bleeding stops.",
+        "Keep the person warm and still. Seek emergency help as soon as possible."
+      ]
+    },
+    {
+      "id": "cpr-hands-only",
+      "title": "CPR (Adults): Hands-Only",
+      "category": "First Aid",
+      "summary": "Push hard and fast in the center of the chest.",
+      "keywords": ["resuscitation", "compressions", "cardiac"],
+      "steps": [
+        "Check responsiveness and breathing. If not breathing normally, call emergency services (use speakerphone).",
+        "Place the heel of your hand in the center of the chest, other hand on top, arms straight.",
+        "Push hard and fast (~100–120/min), allowing full recoil. Keep going until help arrives or an AED is available.",
+        "If trained and willing, give rescue breaths (30 compressions : 2 breaths). Otherwise, continue hands-only."
+      ]
+    },
+    {
+      "id": "anxiety-grounding",
+      "title": "Anxiety: 5-4-3-2-1 Grounding",
+      "category": "Mental Health",
+      "summary": "Orient to the present with your senses + steady breathing.",
+      "keywords": ["panic", "stress", "breathing", "grounding"],
+      "steps": [
+        "Breathe in for 4, hold 2, out for 6. Repeat.",
+        "Notice 5 things you can see.",
+        "Notice 4 things you can touch.",
+        "Notice 3 things you can hear.",
+        "Notice 2 things you can smell.",
+        "Notice 1 thing you can taste. Breathe slowly again."
+      ]
+    },
+    {
+      "id": "safe-water",
+      "title": "Safe Water: Boil Method",
+      "category": "Public Health",
+      "summary": "Bring water to a rolling boil for at least 1 minute (3 minutes at high altitude).",
+      "keywords": ["boil water", "purify", "disaster"],
+      "steps": [
+        "Filter cloudy water through clean cloth if needed.",
+        "Bring to a rolling boil for 1 full minute (3 minutes if above ~6,500 ft / 2,000 m).",
+        "Let it cool and store covered in a clean container."
+      ]
+    }
+  ]
+}
